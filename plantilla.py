@@ -26,7 +26,7 @@
 # Pero se ejecuta en la terminal de tu computadora, no en Jupyter Notebook.
 # OJO: Debes antes tener instalado Streamlit en tu computadora, debes antes definir la ruta de tus archivos y 
 ##     tener un script de Python (your_script.py) que quieras ejecutar en Streamlit.
-# python -m streamlit run PC4.py
+# python -m streamlit run plantilla.py
 #  your_script.py
 
 # Este código sirve para hacer un primer programa en Streamlit.
@@ -36,13 +36,13 @@ import streamlit as st
 # Generamos una página principal, otra donde contaran su experiencia aprendiendo a programar y una tercera donde presentarán sus gráficos.
 
 # Creamos la lista de páginas
-paginas = ['Inicio', 'Experiencia', 'Gráficos']
+paginas = ['Bienvenido', 'Mapa Histórico', 'Hecho del Día']
 
 # Creamos botones de navegación tomando la lista de páginas
 pagina_seleccionada = st.sidebar.selectbox('Selecciona la sección que deseas ver', paginas)
 
 # Generamos condicionales para mostrar el contenido de cada página
-if pagina_seleccionada == 'Inicio':
+if pagina_seleccionada == 'Bienvenido':
 
     # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
     st.markdown("<h1 style='text-align: center;'>HISTORIAPP🕰️🇵🇪</h1>", unsafe_allow_html=True)
@@ -99,7 +99,7 @@ if pagina_seleccionada == 'Inicio':
     # Permite insertar el valor de una variable directamente en la cadena. 
     # En este caso, {texto} se reemplaza por el valor de la variable texto.
 
-elif  pagina_seleccionada == 'Experiencia':
+elif  pagina_seleccionada == 'Mapa Histórico':
 
     # Agregamos un título
     st.markdown("<h1 style='text-align: center;'>Mi experiencia aprendiendo a programar 💻</h1>", unsafe_allow_html=True)
