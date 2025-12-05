@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_95eaa5aa9e76e60eb072bc1daa1a9842 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_95eaa5aa9e76e60eb072bc1daa1a9842" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_95eaa5aa9e76e60eb072bc1daa1a9842 = L.map(
+                "map_95eaa5aa9e76e60eb072bc1daa1a9842",
+                {
+                    center: [-10.393941041729438, -74.1406690589977],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_12f9a779562101fdf6bcf13a6e9213af = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_12f9a779562101fdf6bcf13a6e9213af.addTo(map_95eaa5aa9e76e60eb072bc1daa1a9842);
+        
+    
+            var marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_2fca7e285201e8505446c531196f35b5 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_5dddec647cf4589d01965027de0ab8cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_773bfc4887ba9b01bbc6104c8992ac91 = $(`<div id="html_773bfc4887ba9b01bbc6104c8992ac91" style="width: 100.0%; height: 100.0%;">     <b>Retorno a la democracia</b><br>     Lugar: Lima<br>     Fernando Belaúnde asume la presidencia tras el gobierno militar.     </div>`)[0];
+                popup_5dddec647cf4589d01965027de0ab8cb.setContent(html_773bfc4887ba9b01bbc6104c8992ac91);
+            
+        
+
+        marker_2fca7e285201e8505446c531196f35b5.bindPopup(popup_5dddec647cf4589d01965027de0ab8cb)
+        ;
+
+        
+    
+    
+            var marker_af4b2c46bc05bfda61479703cd772af6 = L.marker(
+                [-13.1852225571488, -74.2294910415869],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_30892da9a8b882066b7ae081396b10c9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7f77c5c9f81b528e4ea4e5eb372da70d = $(`<div id="html_7f77c5c9f81b528e4ea4e5eb372da70d" style="width: 100.0%; height: 100.0%;">     <b>Inicio del conflicto armado interno</b><br>     Lugar: Ayacucho<br>     Sendero Luminoso inicia ataques en Chuschi.     </div>`)[0];
+                popup_30892da9a8b882066b7ae081396b10c9.setContent(html_7f77c5c9f81b528e4ea4e5eb372da70d);
+            
+        
+
+        marker_af4b2c46bc05bfda61479703cd772af6.bindPopup(popup_30892da9a8b882066b7ae081396b10c9)
+        ;
+
+        
+    
+    
+            var marker_d0a3f1e99f22f7e7baf00a52408e9a6a = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_302050df61daf275b4b7489c463f160e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1942311e26418a53f21714053e4e0302 = $(`<div id="html_1942311e26418a53f21714053e4e0302" style="width: 100.0%; height: 100.0%;">     <b>Creación del GEIN</b><br>     Lugar: Lima<br>     Se crea grupo policial de inteligencia contra SL.     </div>`)[0];
+                popup_302050df61daf275b4b7489c463f160e.setContent(html_1942311e26418a53f21714053e4e0302);
+            
+        
+
+        marker_d0a3f1e99f22f7e7baf00a52408e9a6a.bindPopup(popup_302050df61daf275b4b7489c463f160e)
+        ;
+
+        
+    
+    
+            var marker_0f016550f36e72aee530d3776f4bde06 = L.marker(
+                [-13.1852225571488, -74.2294910415869],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_2d51fb81a13924c534aa05c282731f27 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b06ed6959bc474001c138af70e2780df = $(`<div id="html_b06ed6959bc474001c138af70e2780df" style="width: 100.0%; height: 100.0%;">     <b>Caso Uchuraccay</b><br>     Lugar: Ayacucho<br>     Ocho periodistas asesinados.     </div>`)[0];
+                popup_2d51fb81a13924c534aa05c282731f27.setContent(html_b06ed6959bc474001c138af70e2780df);
+            
+        
+
+        marker_0f016550f36e72aee530d3776f4bde06.bindPopup(popup_2d51fb81a13924c534aa05c282731f27)
+        ;
+
+        
+    
+    
+            var marker_b7a8ed08d77d540f5f3e0f2fbac06e8f = L.marker(
+                [-13.1852225571488, -74.2294910415869],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_2d4691ada804b2d12e02614d3e10c547 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_54008d4adc374154a2bf7c5027a04667 = $(`<div id="html_54008d4adc374154a2bf7c5027a04667" style="width: 100.0%; height: 100.0%;">     <b>Aumento de violencia armada</b><br>     Lugar: Ayacucho<br>     SL incrementa ataques y atentados.     </div>`)[0];
+                popup_2d4691ada804b2d12e02614d3e10c547.setContent(html_54008d4adc374154a2bf7c5027a04667);
+            
+        
+
+        marker_b7a8ed08d77d540f5f3e0f2fbac06e8f.bindPopup(popup_2d4691ada804b2d12e02614d3e10c547)
+        ;
+
+        
+    
+    
+            var marker_30a255e2befbe2069b1b0f78cdf007f5 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_7a601c8378b8cd2d860cc01e876ec9f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d655f490052b69b118b73bd85d4f444f = $(`<div id="html_d655f490052b69b118b73bd85d4f444f" style="width: 100.0%; height: 100.0%;">     <b>Alan García asume presidencia</b><br>     Lugar: Lima<br>     Primer gobierno aprista.     </div>`)[0];
+                popup_7a601c8378b8cd2d860cc01e876ec9f4.setContent(html_d655f490052b69b118b73bd85d4f444f);
+            
+        
+
+        marker_30a255e2befbe2069b1b0f78cdf007f5.bindPopup(popup_7a601c8378b8cd2d860cc01e876ec9f4)
+        ;
+
+        
+    
+    
+            var marker_d99dc360082486bb94c8bff3e9f86f4f = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_b68b6ddf023505e3d9a4334cc8d00723 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5f19ba47652841ed1bfb06ca8ca08017 = $(`<div id="html_5f19ba47652841ed1bfb06ca8ca08017" style="width: 100.0%; height: 100.0%;">     <b>Estatización de la banca</b><br>     Lugar: Lima<br>     Anuncio de García provoca crisis económica.     </div>`)[0];
+                popup_b68b6ddf023505e3d9a4334cc8d00723.setContent(html_5f19ba47652841ed1bfb06ca8ca08017);
+            
+        
+
+        marker_d99dc360082486bb94c8bff3e9f86f4f.bindPopup(popup_b68b6ddf023505e3d9a4334cc8d00723)
+        ;
+
+        
+    
+    
+            var marker_b79b05ae6048bd0b42db2a7da75420f8 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_5dc294d1bcd61589815a044f690e9da7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_921d0380636a46b368c7f6dfb5aca738 = $(`<div id="html_921d0380636a46b368c7f6dfb5aca738" style="width: 100.0%; height: 100.0%;">     <b>Hiperinflación</b><br>     Lugar: Lima<br>     Inflación supera récords históricos.     </div>`)[0];
+                popup_5dc294d1bcd61589815a044f690e9da7.setContent(html_921d0380636a46b368c7f6dfb5aca738);
+            
+        
+
+        marker_b79b05ae6048bd0b42db2a7da75420f8.bindPopup(popup_5dc294d1bcd61589815a044f690e9da7)
+        ;
+
+        
+    
+    
+            var marker_960aa8bee0afb39944724010bd6533f9 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_90a8ac465c34b29d5d3f886927a8161c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8119c3d372c547fe6489af7daff452cf = $(`<div id="html_8119c3d372c547fe6489af7daff452cf" style="width: 100.0%; height: 100.0%;">     <b>Elección de Fujimori</b><br>     Lugar: Lima<br>     Fujimori vence a Vargas Llosa.     </div>`)[0];
+                popup_90a8ac465c34b29d5d3f886927a8161c.setContent(html_8119c3d372c547fe6489af7daff452cf);
+            
+        
+
+        marker_960aa8bee0afb39944724010bd6533f9.bindPopup(popup_90a8ac465c34b29d5d3f886927a8161c)
+        ;
+
+        
+    
+    
+            var marker_aa8271758abe9ff4cc98a99c746f2c53 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_a00390eaf8e2533278351361b5dd080c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c0b9da70aaee26ed1fa41af5869e38e1 = $(`<div id="html_c0b9da70aaee26ed1fa41af5869e38e1" style="width: 100.0%; height: 100.0%;">     <b>Autogolpe de 1992</b><br>     Lugar: Lima<br>     Fujimori disuelve el Congreso.     </div>`)[0];
+                popup_a00390eaf8e2533278351361b5dd080c.setContent(html_c0b9da70aaee26ed1fa41af5869e38e1);
+            
+        
+
+        marker_aa8271758abe9ff4cc98a99c746f2c53.bindPopup(popup_a00390eaf8e2533278351361b5dd080c)
+        ;
+
+        
+    
+    
+            var marker_c949e581be5c2783c92511fc8e342766 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_077ec40754e11e3310b2260ec370490b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2f9b96a14fa2b4eaff27b3f3291d8b15 = $(`<div id="html_2f9b96a14fa2b4eaff27b3f3291d8b15" style="width: 100.0%; height: 100.0%;">     <b>Captura de Abimael Guzmán</b><br>     Lugar: Lima<br>     GEIN captura líder de SL.     </div>`)[0];
+                popup_077ec40754e11e3310b2260ec370490b.setContent(html_2f9b96a14fa2b4eaff27b3f3291d8b15);
+            
+        
+
+        marker_c949e581be5c2783c92511fc8e342766.bindPopup(popup_077ec40754e11e3310b2260ec370490b)
+        ;
+
+        
+    
+    
+            var marker_0780a491df93cbaa842b0567257ffddc = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_2b593160b39f7737c4d389cb3214a393 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ccdb71bf68797c38a7c72fbf03e1d339 = $(`<div id="html_ccdb71bf68797c38a7c72fbf03e1d339" style="width: 100.0%; height: 100.0%;">     <b>Nueva Constitución</b><br>     Lugar: Lima<br>     Se aprueba Constitución de 1993.     </div>`)[0];
+                popup_2b593160b39f7737c4d389cb3214a393.setContent(html_ccdb71bf68797c38a7c72fbf03e1d339);
+            
+        
+
+        marker_0780a491df93cbaa842b0567257ffddc.bindPopup(popup_2b593160b39f7737c4d389cb3214a393)
+        ;
+
+        
+    
+    
+            var marker_e335ef6ea93c5203b3e050364504cc6a = L.marker(
+                [-4.11717856804314, -78.1287512571128],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_f87a21f801177e68433df4743cc35782 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7032d8352643f04c1fd4542061871aa0 = $(`<div id="html_7032d8352643f04c1fd4542061871aa0" style="width: 100.0%; height: 100.0%;">     <b>Conflicto del Cenepa</b><br>     Lugar: Amazonas<br>     Enfrentamiento Perú–Ecuador.     </div>`)[0];
+                popup_f87a21f801177e68433df4743cc35782.setContent(html_7032d8352643f04c1fd4542061871aa0);
+            
+        
+
+        marker_e335ef6ea93c5203b3e050364504cc6a.bindPopup(popup_f87a21f801177e68433df4743cc35782)
+        ;
+
+        
+    
+    
+            var marker_18826896756f43f26d5eaefafa79be0d = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_22f8e8e2816dfc455a1663cfb4f53689 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d537fa550fed07b73b9ee95620c34867 = $(`<div id="html_d537fa550fed07b73b9ee95620c34867" style="width: 100.0%; height: 100.0%;">     <b>Vladivideos</b><br>     Lugar: Lima<br>     Video de Montesinos sobornando a Kouri.     </div>`)[0];
+                popup_22f8e8e2816dfc455a1663cfb4f53689.setContent(html_d537fa550fed07b73b9ee95620c34867);
+            
+        
+
+        marker_18826896756f43f26d5eaefafa79be0d.bindPopup(popup_22f8e8e2816dfc455a1663cfb4f53689)
+        ;
+
+        
+    
+    
+            var marker_f1af7ef9bdf5caa245da13b336b185f7 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_aaec1c02a394ba78f0701d122ebfb1b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6cfa15c9c68a92581a72f5c3c027eb82 = $(`<div id="html_6cfa15c9c68a92581a72f5c3c027eb82" style="width: 100.0%; height: 100.0%;">     <b>Renuncia de Fujimori</b><br>     Lugar: Lima<br>     Fujimori renuncia por fax.     </div>`)[0];
+                popup_aaec1c02a394ba78f0701d122ebfb1b9.setContent(html_6cfa15c9c68a92581a72f5c3c027eb82);
+            
+        
+
+        marker_f1af7ef9bdf5caa245da13b336b185f7.bindPopup(popup_aaec1c02a394ba78f0701d122ebfb1b9)
+        ;
+
+        
+    
+    
+            var marker_e3ef9d514b69c02453155501cb2d3aae = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_00bebbf8a998e62b2ec52fe4cbadab7c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a253e887e94c605078c8fb8fb91b222b = $(`<div id="html_a253e887e94c605078c8fb8fb91b222b" style="width: 100.0%; height: 100.0%;">     <b>Comisión de la Verdad y Reconciliación (CVR)</b><br>     Lugar: Lima<br>     Se instala la CVR para investigar el conflicto armado interno.     </div>`)[0];
+                popup_00bebbf8a998e62b2ec52fe4cbadab7c.setContent(html_a253e887e94c605078c8fb8fb91b222b);
+            
+        
+
+        marker_e3ef9d514b69c02453155501cb2d3aae.bindPopup(popup_00bebbf8a998e62b2ec52fe4cbadab7c)
+        ;
+
+        
+    
+    
+            var marker_9b93484d4aff0ec01271540b9e448aae = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_165f250a28781ed032a0dd16edea7c67 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4725d03664b652a99a563e5e06dec3b1 = $(`<div id="html_4725d03664b652a99a563e5e06dec3b1" style="width: 100.0%; height: 100.0%;">     <b>Alejandro Toledo asume la presidencia</b><br>     Lugar: Lima<br>     Primer presidente indígena moderno en la historia del Perú.     </div>`)[0];
+                popup_165f250a28781ed032a0dd16edea7c67.setContent(html_4725d03664b652a99a563e5e06dec3b1);
+            
+        
+
+        marker_9b93484d4aff0ec01271540b9e448aae.bindPopup(popup_165f250a28781ed032a0dd16edea7c67)
+        ;
+
+        
+    
+    
+            var marker_53bb5213728935637acb018802571983 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_c07b5bc69c1e9ee42c155aaca6ede546 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_35397acd7a06c38e10a31a524d4dcddc = $(`<div id="html_35397acd7a06c38e10a31a524d4dcddc" style="width: 100.0%; height: 100.0%;">     <b>Creación de regiones</b><br>     Lugar: Lima<br>     Se establecen gobiernos regionales electos.     </div>`)[0];
+                popup_c07b5bc69c1e9ee42c155aaca6ede546.setContent(html_35397acd7a06c38e10a31a524d4dcddc);
+            
+        
+
+        marker_53bb5213728935637acb018802571983.bindPopup(popup_c07b5bc69c1e9ee42c155aaca6ede546)
+        ;
+
+        
+    
+    
+            var marker_20040fbe1a0336b2c873ff602f77f1a0 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_e3f065e411511cd42883273be620e75b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b0cf10a9a595e1fe60b235b60ccd972 = $(`<div id="html_1b0cf10a9a595e1fe60b235b60ccd972" style="width: 100.0%; height: 100.0%;">     <b>Informe Final de la CVR</b><br>     Lugar: Lima<br>     Publicación oficial del Informe Final.     </div>`)[0];
+                popup_e3f065e411511cd42883273be620e75b.setContent(html_1b0cf10a9a595e1fe60b235b60ccd972);
+            
+        
+
+        marker_20040fbe1a0336b2c873ff602f77f1a0.bindPopup(popup_e3f065e411511cd42883273be620e75b)
+        ;
+
+        
+    
+    
+            var marker_0a786816ae3a6eb7ee0f0f003452bcbe = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_d798e19aa8802da748a2d100fb1a43bd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b941204638f0d17d0de750d9c891167b = $(`<div id="html_b941204638f0d17d0de750d9c891167b" style="width: 100.0%; height: 100.0%;">     <b>Caso Lava Jato inicia en Brasil</b><br>     Lugar: Lima<br>     Inicio del megacaso que luego afectaría al Perú.     </div>`)[0];
+                popup_d798e19aa8802da748a2d100fb1a43bd.setContent(html_b941204638f0d17d0de750d9c891167b);
+            
+        
+
+        marker_0a786816ae3a6eb7ee0f0f003452bcbe.bindPopup(popup_d798e19aa8802da748a2d100fb1a43bd)
+        ;
+
+        
+    
+    
+            var marker_62fdbfe282b511b0a662d67b563e3c1d = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_bd528fad2c206f5b1d9ce5e934ad60a9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a3c1aa71d08bc25520b742cce9d026a = $(`<div id="html_7a3c1aa71d08bc25520b742cce9d026a" style="width: 100.0%; height: 100.0%;">     <b>Marchas por educación digna</b><br>     Lugar: Lima<br>     Movilizaciones nacionales por mejoras en educación.     </div>`)[0];
+                popup_bd528fad2c206f5b1d9ce5e934ad60a9.setContent(html_7a3c1aa71d08bc25520b742cce9d026a);
+            
+        
+
+        marker_62fdbfe282b511b0a662d67b563e3c1d.bindPopup(popup_bd528fad2c206f5b1d9ce5e934ad60a9)
+        ;
+
+        
+    
+    
+            var marker_0b703b7c05a99e793c7dccc0b7d27df4 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_ce8030e29bbd30926722f8c72d5f9ba3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1063be03d0e402735b9b892ad7647555 = $(`<div id="html_1063be03d0e402735b9b892ad7647555" style="width: 100.0%; height: 100.0%;">     <b>Segundo gobierno de Alan García</b><br>     Lugar: Lima<br>     Retorno al poder con un enfoque económico distinto.     </div>`)[0];
+                popup_ce8030e29bbd30926722f8c72d5f9ba3.setContent(html_1063be03d0e402735b9b892ad7647555);
+            
+        
+
+        marker_0b703b7c05a99e793c7dccc0b7d27df4.bindPopup(popup_ce8030e29bbd30926722f8c72d5f9ba3)
+        ;
+
+        
+    
+    
+            var marker_924129fd511248eff18fe301c844d3d1 = L.marker(
+                [-14.0747211329329, -75.7061295388671],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_a88e14762266ce9ec3124c7ba9c1ddd9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b1ab8665514a3d2b08b9bbd97a0afcf4 = $(`<div id="html_b1ab8665514a3d2b08b9bbd97a0afcf4" style="width: 100.0%; height: 100.0%;">     <b>Terremoto de Pisco</b><br>     Lugar: Ica<br>     Sismo de magnitud 7.9 afecta el sur del país.     </div>`)[0];
+                popup_a88e14762266ce9ec3124c7ba9c1ddd9.setContent(html_b1ab8665514a3d2b08b9bbd97a0afcf4);
+            
+        
+
+        marker_924129fd511248eff18fe301c844d3d1.bindPopup(popup_a88e14762266ce9ec3124c7ba9c1ddd9)
+        ;
+
+        
+    
+    
+            var marker_848129db440b516acdab49d00d6c2073 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_a5d1ae627e1711535519eb9b808264ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8b9724281f9c6b77e6a174ae398a7fe = $(`<div id="html_b8b9724281f9c6b77e6a174ae398a7fe" style="width: 100.0%; height: 100.0%;">     <b>Crisis financiera mundial impacta al Perú</b><br>     Lugar: Lima<br>     Caída en exportaciones y menor crecimiento.     </div>`)[0];
+                popup_a5d1ae627e1711535519eb9b808264ff.setContent(html_b8b9724281f9c6b77e6a174ae398a7fe);
+            
+        
+
+        marker_848129db440b516acdab49d00d6c2073.bindPopup(popup_a5d1ae627e1711535519eb9b808264ff)
+        ;
+
+        
+    
+    
+            var marker_d31adc00c16e39ddd00a5ce1d6896a32 = L.marker(
+                [-5.63066355438272, -78.5271880159068],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_d6218ac80b2eea07ce5f91795bf8ca92 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5eae65c711d2627d764a86447106aed8 = $(`<div id="html_5eae65c711d2627d764a86447106aed8" style="width: 100.0%; height: 100.0%;">     <b>Baguazo</b><br>     Lugar: Bagua<br>     Enfrentamiento entre indígenas awajún-wampis y policía.     </div>`)[0];
+                popup_d6218ac80b2eea07ce5f91795bf8ca92.setContent(html_5eae65c711d2627d764a86447106aed8);
+            
+        
+
+        marker_d31adc00c16e39ddd00a5ce1d6896a32.bindPopup(popup_d6218ac80b2eea07ce5f91795bf8ca92)
+        ;
+
+        
+    
+    
+            var marker_6f84079dbccefd7da246e22ba1dd2926 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_5636b8330c82c9b2501dbf13d57a6217 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b441f0d59009631edc38fe7617ffb7d0 = $(`<div id="html_b441f0d59009631edc38fe7617ffb7d0" style="width: 100.0%; height: 100.0%;">     <b>Caso “Petroaudios”</b><br>     Lugar: Lima<br>     Escándalo por tráfico de influencias en contratos petroleros.     </div>`)[0];
+                popup_5636b8330c82c9b2501dbf13d57a6217.setContent(html_b441f0d59009631edc38fe7617ffb7d0);
+            
+        
+
+        marker_6f84079dbccefd7da246e22ba1dd2926.bindPopup(popup_5636b8330c82c9b2501dbf13d57a6217)
+        ;
+
+        
+    
+    
+            var marker_da370dc98eb19d8878cba63b4c1c91d3 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_a08c58bad3faec49c7cbf9b9fbd46d88 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_44255819e65a6458bce91e59680c36ca = $(`<div id="html_44255819e65a6458bce91e59680c36ca" style="width: 100.0%; height: 100.0%;">     <b>Ollanta Humala asume la presidencia</b><br>     Lugar: Lima<br>     Giro político hacia inclusión social.     </div>`)[0];
+                popup_a08c58bad3faec49c7cbf9b9fbd46d88.setContent(html_44255819e65a6458bce91e59680c36ca);
+            
+        
+
+        marker_da370dc98eb19d8878cba63b4c1c91d3.bindPopup(popup_a08c58bad3faec49c7cbf9b9fbd46d88)
+        ;
+
+        
+    
+    
+            var marker_508582b4e79128d9428b604db4e8cafb = L.marker(
+                [-7.13850873704212, -78.5119249298924],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_dc6d8f151bff60ad877febbd4941ee6e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e8dc0caf718719941c641f9e9b12ba11 = $(`<div id="html_e8dc0caf718719941c641f9e9b12ba11" style="width: 100.0%; height: 100.0%;">     <b>Protestas contra Conga</b><br>     Lugar: Cajamarca<br>     Movilizaciones ambientales contra el proyecto minero Conga.     </div>`)[0];
+                popup_dc6d8f151bff60ad877febbd4941ee6e.setContent(html_e8dc0caf718719941c641f9e9b12ba11);
+            
+        
+
+        marker_508582b4e79128d9428b604db4e8cafb.bindPopup(popup_dc6d8f151bff60ad877febbd4941ee6e)
+        ;
+
+        
+    
+    
+            var marker_ed9110eb4441dcb876245fbd6dbe64cf = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_8ec1f2c82731c45c1e946386131bcf1e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ba9b2e9dd8b2fc6a64c5c1cb805596ec = $(`<div id="html_ba9b2e9dd8b2fc6a64c5c1cb805596ec" style="width: 100.0%; height: 100.0%;">     <b>Ley contra la trata de personas</b><br>     Lugar: Lima<br>     Aprobación de ley integral para combatir la trata.     </div>`)[0];
+                popup_8ec1f2c82731c45c1e946386131bcf1e.setContent(html_ba9b2e9dd8b2fc6a64c5c1cb805596ec);
+            
+        
+
+        marker_ed9110eb4441dcb876245fbd6dbe64cf.bindPopup(popup_8ec1f2c82731c45c1e946386131bcf1e)
+        ;
+
+        
+    
+    
+            var marker_fc67d3fb213bee83c22ecd8d2b4d9c3e = L.marker(
+                [-4.80219956996397, -75.2157806849346],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_b6223ff462efcc199186dd214657cee1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9b2c803b2d87b3eda5034cd3b10a1d1 = $(`<div id="html_d9b2c803b2d87b3eda5034cd3b10a1d1" style="width: 100.0%; height: 100.0%;">     <b>Derrame de petróleo en Cuninico</b><br>     Lugar: Loreto<br>     Fuga en oleoducto afecta comunidades amazónicas.     </div>`)[0];
+                popup_b6223ff462efcc199186dd214657cee1.setContent(html_d9b2c803b2d87b3eda5034cd3b10a1d1);
+            
+        
+
+        marker_fc67d3fb213bee83c22ecd8d2b4d9c3e.bindPopup(popup_b6223ff462efcc199186dd214657cee1)
+        ;
+
+        
+    
+    
+            var marker_f2d26bbf32a3a7badd78d79e96d3f455 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_eecf0d8890f14fd614343055b106f9ec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fa2bd1713a63df82be401202be93f7e0 = $(`<div id="html_fa2bd1713a63df82be401202be93f7e0" style="width: 100.0%; height: 100.0%;">     <b>Elecciones regionales y municipales</b><br>     Lugar: Lima<br>     Renovación de gobiernos locales en medio de casos de corrupción.     </div>`)[0];
+                popup_eecf0d8890f14fd614343055b106f9ec.setContent(html_fa2bd1713a63df82be401202be93f7e0);
+            
+        
+
+        marker_f2d26bbf32a3a7badd78d79e96d3f455.bindPopup(popup_eecf0d8890f14fd614343055b106f9ec)
+        ;
+
+        
+    
+    
+            var marker_53556ee7597f7011c318a3c6862079a7 = L.marker(
+                [-7.13850873704212, -78.5119249298924],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_214ad819fcade8cef3f982b52e923704 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08a8ec2b0df19cc4fb996ef683ebf594 = $(`<div id="html_08a8ec2b0df19cc4fb996ef683ebf594" style="width: 100.0%; height: 100.0%;">     <b>Hallazgo de geoglifos en Cajamarca</b><br>     Lugar: Cajamarca<br>     Se identifican nuevos geoglifos prehispánicos con drones.     </div>`)[0];
+                popup_214ad819fcade8cef3f982b52e923704.setContent(html_08a8ec2b0df19cc4fb996ef683ebf594);
+            
+        
+
+        marker_53556ee7597f7011c318a3c6862079a7.bindPopup(popup_214ad819fcade8cef3f982b52e923704)
+        ;
+
+        
+    
+    
+            var marker_808763bee090687f498c126370f8946c = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_7e697e05d3dbfee06afaae666692f26a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9cb4f290525c4182ca6e5a69cbfb155a = $(`<div id="html_9cb4f290525c4182ca6e5a69cbfb155a" style="width: 100.0%; height: 100.0%;">     <b>PPK asume la presidencia</b><br>     Lugar: Lima<br>     Segunda transferencia democrática consecutiva.     </div>`)[0];
+                popup_7e697e05d3dbfee06afaae666692f26a.setContent(html_9cb4f290525c4182ca6e5a69cbfb155a);
+            
+        
+
+        marker_808763bee090687f498c126370f8946c.bindPopup(popup_7e697e05d3dbfee06afaae666692f26a)
+        ;
+
+        
+    
+    
+            var marker_6c017cb43652fd09a57b1ae3e3cc8a06 = L.marker(
+                [-6.51142046882605, -79.8489059344369],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_60b796713f73ba96077f5809776e4e5f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_af2d748ce1a31c119194803773b71949 = $(`<div id="html_af2d748ce1a31c119194803773b71949" style="width: 100.0%; height: 100.0%;">     <b>Reapertura del Museo de Túcume</b><br>     Lugar: Lambayeque<br>     Renovación del complejo museográfico en Lambayeque.     </div>`)[0];
+                popup_60b796713f73ba96077f5809776e4e5f.setContent(html_af2d748ce1a31c119194803773b71949);
+            
+        
+
+        marker_6c017cb43652fd09a57b1ae3e3cc8a06.bindPopup(popup_60b796713f73ba96077f5809776e4e5f)
+        ;
+
+        
+    
+    
+            var marker_5554e9ed9fa5321e282103a05e64096a = L.marker(
+                [-5.18089472013428, -80.9822011082363],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_516250f762229663cd482a9be2886988 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9f152497f27ae5c7ee55fe9363fd5e6d = $(`<div id="html_9f152497f27ae5c7ee55fe9363fd5e6d" style="width: 100.0%; height: 100.0%;">     <b>Niño Costero golpea el norte</b><br>     Lugar: Piura<br>     Inundaciones masivas afectan múltiples regiones.     </div>`)[0];
+                popup_516250f762229663cd482a9be2886988.setContent(html_9f152497f27ae5c7ee55fe9363fd5e6d);
+            
+        
+
+        marker_5554e9ed9fa5321e282103a05e64096a.bindPopup(popup_516250f762229663cd482a9be2886988)
+        ;
+
+        
+    
+    
+            var marker_c5d0b24d584c1aa47a463a899653ad50 = L.marker(
+                [-12.0442487513955, -77.0445547325337],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_4df01fb9aa4ba639897e267f0773374d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f1e64c08ae51bd44b76acaa5b425affa = $(`<div id="html_f1e64c08ae51bd44b76acaa5b425affa" style="width: 100.0%; height: 100.0%;">     <b>Incendio en mercado de Las Malvinas</b><br>     Lugar: Lima<br>     Siniestra infraestructura informal afecta a comerciantes.     </div>`)[0];
+                popup_4df01fb9aa4ba639897e267f0773374d.setContent(html_f1e64c08ae51bd44b76acaa5b425affa);
+            
+        
+
+        marker_c5d0b24d584c1aa47a463a899653ad50.bindPopup(popup_4df01fb9aa4ba639897e267f0773374d)
+        ;
+
+        
+    
+    
+            var marker_dc5c90092ecebfadf44ece925385562d = L.marker(
+                [-13.533051194594, -71.8082522175498],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_391360a0be884ce096495fdb85634849 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b1562ace2761d26c178788ff1af9b85f = $(`<div id="html_b1562ace2761d26c178788ff1af9b85f" style="width: 100.0%; height: 100.0%;">     <b>Huelga de maestros</b><br>     Lugar: Cusco<br>     Movilización nacional con epicentros en Cusco y Puno.     </div>`)[0];
+                popup_391360a0be884ce096495fdb85634849.setContent(html_b1562ace2761d26c178788ff1af9b85f);
+            
+        
+
+        marker_dc5c90092ecebfadf44ece925385562d.bindPopup(popup_391360a0be884ce096495fdb85634849)
+        ;
+
+        
+    
+    
+            var marker_489dba18893ae70b4967d1b8bc70bdc6 = L.marker(
+                [-16.4080832120271, -71.5437765047065],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_843f9882d6337c27488891097d9c424a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c1e4bad47bbc68c6b6c5115c15fbd80 = $(`<div id="html_4c1e4bad47bbc68c6b6c5115c15fbd80" style="width: 100.0%; height: 100.0%;">     <b>Conflicto por Tía María</b><br>     Lugar: Arequipa<br>     Recrudecen protestas contra proyecto minero.     </div>`)[0];
+                popup_843f9882d6337c27488891097d9c424a.setContent(html_4c1e4bad47bbc68c6b6c5115c15fbd80);
+            
+        
+
+        marker_489dba18893ae70b4967d1b8bc70bdc6.bindPopup(popup_843f9882d6337c27488891097d9c424a)
+        ;
+
+        
+    
+    
+            var marker_38060feb85b76883b9a9a2070c33539d = L.marker(
+                [-9.91788064357391, -76.2434854890863],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_8daea803a9aa8875f692228546b31ba3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_38226e8ae0fd008d4551940d22aa2fab = $(`<div id="html_38226e8ae0fd008d4551940d22aa2fab" style="width: 100.0%; height: 100.0%;">     <b>Captura de organización criminal “Los Piratas del Huallaga”</b><br>     Lugar: Huánuco<br>     Golpe policial al crimen organizado en la selva.     </div>`)[0];
+                popup_8daea803a9aa8875f692228546b31ba3.setContent(html_38226e8ae0fd008d4551940d22aa2fab);
+            
+        
+
+        marker_38060feb85b76883b9a9a2070c33539d.bindPopup(popup_8daea803a9aa8875f692228546b31ba3)
+        ;
+
+        
+    
+    
+            var marker_1ddd21d2379cefe6e621dd233969d5b0 = L.marker(
+                [-6.40131979406012, -77.930253922012],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_ec13768cb373c0d85e9ff983d21c8575 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c69f7321b6cb44a99aad2e7ee9f409eb = $(`<div id="html_c69f7321b6cb44a99aad2e7ee9f409eb" style="width: 100.0%; height: 100.0%;">     <b>Inauguración del teleférico de Kuélap</b><br>     Lugar: Amazonas<br>     Nuevo sistema para promover turismo sostenible.     </div>`)[0];
+                popup_ec13768cb373c0d85e9ff983d21c8575.setContent(html_c69f7321b6cb44a99aad2e7ee9f409eb);
+            
+        
+
+        marker_1ddd21d2379cefe6e621dd233969d5b0.bindPopup(popup_ec13768cb373c0d85e9ff983d21c8575)
+        ;
+
+        
+    
+    
+            var marker_4a53666a11a01bc0a9c937a45dca215a = L.marker(
+                [-13.533051194594, -71.8082522175498],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_70b414138f58a463f038a1e97691b77a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e9c7cb9c636ace45768eb782530a5b11 = $(`<div id="html_e9c7cb9c636ace45768eb782530a5b11" style="width: 100.0%; height: 100.0%;">     <b>Marchas contra contaminación minera</b><br>     Lugar: Cusco<br>     Comunidades de Espinar protestan por metales pesados.     </div>`)[0];
+                popup_70b414138f58a463f038a1e97691b77a.setContent(html_e9c7cb9c636ace45768eb782530a5b11);
+            
+        
+
+        marker_4a53666a11a01bc0a9c937a45dca215a.bindPopup(popup_70b414138f58a463f038a1e97691b77a)
+        ;
+
+        
+    
+    
+            var marker_b3b83e0cfb3e1b929e29ce88fd145ee6 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_7ff99c521d8f0564304c5131b730e0ac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b37f4a0fd199f692ba061d846050a55 = $(`<div id="html_1b37f4a0fd199f692ba061d846050a55" style="width: 100.0%; height: 100.0%;">     <b>Primer caso de COVID-19 en el Perú</b><br>     Lugar: Lima<br>     Confirmación oficial del primer contagiado.     </div>`)[0];
+                popup_7ff99c521d8f0564304c5131b730e0ac.setContent(html_1b37f4a0fd199f692ba061d846050a55);
+            
+        
+
+        marker_b3b83e0cfb3e1b929e29ce88fd145ee6.bindPopup(popup_7ff99c521d8f0564304c5131b730e0ac)
+        ;
+
+        
+    
+    
+            var marker_c339ecbc43a7205ca847e92089eedf00 = L.marker(
+                [-18.2875397164635, -70.3151260070919],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_ad74443d62b01fd66d5ab77e1b252cce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d6584aec974e4b73ddca70306028ad3f = $(`<div id="html_d6584aec974e4b73ddca70306028ad3f" style="width: 100.0%; height: 100.0%;">     <b>Crisis por cierre de fronteras</b><br>     Lugar: Tacna<br>     Miles de migrantes internos quedan varados.     </div>`)[0];
+                popup_ad74443d62b01fd66d5ab77e1b252cce.setContent(html_d6584aec974e4b73ddca70306028ad3f);
+            
+        
+
+        marker_c339ecbc43a7205ca847e92089eedf00.bindPopup(popup_ad74443d62b01fd66d5ab77e1b252cce)
+        ;
+
+        
+    
+    
+            var marker_96c8abad069a76c6002c8130c0483e48 = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_90e7850a2004498b02db3ec07925bc79 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_181f658d6769b268d9f7037a71527fe0 = $(`<div id="html_181f658d6769b268d9f7037a71527fe0" style="width: 100.0%; height: 100.0%;">     <b>Marcha Nacional</b><br>     Lugar: Lima<br>     Movilización masiva tras crisis política.     </div>`)[0];
+                popup_90e7850a2004498b02db3ec07925bc79.setContent(html_181f658d6769b268d9f7037a71527fe0);
+            
+        
+
+        marker_96c8abad069a76c6002c8130c0483e48.bindPopup(popup_90e7850a2004498b02db3ec07925bc79)
+        ;
+
+        
+    
+    
+            var marker_7c6936e11fe99fa472c74532c9d2c07c = L.marker(
+                [-12.0579473662712, -77.068053272959],
+                {
+}
+            ).addTo(marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33);
+        
+    
+        var popup_b65eced31e4e9c89d1f7e2b573047af6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_382527e82a21b540b4a1c5a5c1f862f4 = $(`<div id="html_382527e82a21b540b4a1c5a5c1f862f4" style="width: 100.0%; height: 100.0%;">     <b>Vacunación inicia en el Perú</b><br>     Lugar: Lima<br>     Llegan primeras dosis para personal de salud.     </div>`)[0];
+                popup_b65eced31e4e9c89d1f7e2b573047af6.setContent(html_382527e82a21b540b4a1c5a5c1f862f4);
+            
+        
+
+        marker_7c6936e11fe99fa472c74532c9d2c07c.bindPopup(popup_b65eced31e4e9c89d1f7e2b573047af6)
+        ;
+
+        
+    
+    
+            marker_cluster_83a1452a98bfd49cc56ab5e06ae0da33.addTo(map_95eaa5aa9e76e60eb072bc1daa1a9842);
+        
+</script>
+</html>
