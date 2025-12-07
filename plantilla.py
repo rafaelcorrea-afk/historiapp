@@ -183,7 +183,7 @@ else:
             st.markdown("---")
 
             html_evento = f"""
-            <div style="border-radius:15px; padding:15px; background:#B71C1C; box-shadow:0 0 10px rgba(0,0,0,0.1); font-family:Arial;">
+            <div style="border-radius:15px; padding:15px; background:#F0F0F0; box-shadow:0 0 10px rgba(0,0,0,0.1); font-family:Arial;">
     
             <h2 style="margin-top:0;">✨ {evento['titulo_evento']}</h2>
 
