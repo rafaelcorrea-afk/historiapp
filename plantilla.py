@@ -2,9 +2,6 @@
 import pandas as pd
 import folium
 from folium.plugins import MarkerCluster
-import random
-import datetime
-import random, datetime
 import openpyxl
 import streamlit as st
 from streamlit.components.v1 import html
@@ -186,7 +183,7 @@ else:
             st.markdown("---")
 
             html_evento = f"""
-            <div style="border-radius:15px; padding:15px; background:black; box-shadow:0 0 10px rgba(0,0,0,0.1); font-family:Arial;">
+            <div style="border-radius:15px; padding:15px; background:#B71C1C; box-shadow:0 0 10px rgba(0,0,0,0.1); font-family:Arial;">
     
             <h2 style="margin-top:0;">✨ {evento['titulo_evento']}</h2>
 
